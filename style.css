@@ -57,12 +57,12 @@ main > div {
 }
 
 #intro {
-    height: 1050px;
     text-align: center;
 }
 
 #intro img {
     width: 100%;
+    opacity: 70%;
 }
 
 ul,ol {
@@ -81,12 +81,10 @@ ol {
 
 
 #about {
-    height: 400px;
     text-align: center;
 }
 
 #contact {
-    height: 200px;
     text-align: center;
 }
 
