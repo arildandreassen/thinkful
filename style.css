@@ -79,7 +79,6 @@ ol {
     list-style-position: inside;
 }
 
-
 #about {
     text-align: center;
 }
@@ -102,11 +101,10 @@ a:visited {
     text-decoration: none; 
 }
 
-
 a:hover { 
     color: white;
-    text-decoration: none; }
-
+    text-decoration: none; 
+}
 
 a:active { 
     color:beige;
