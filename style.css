@@ -6,6 +6,15 @@ h3 {
     color: darkslategray;
 }
 
+hr {
+    background-image: url('./images/hr.png');
+    height: 50px;
+    width: 500px;
+    border:0
+}
+
+/* ---------- Header Section Begin ---------- */
+
 .header {
     height: 200px;
     color:black;
@@ -35,60 +44,6 @@ nav {
 
 nav a {
     padding: 10px;
-
-}
-
-hr {
-    background-image: url('./images/hr.png');
-    height: 50px;
-    width: 500px;
-    border:0
-}
-
-main {
-    display: flex;
-}
-
-main > div {
-    position: relative;
-    width: 40%;
-    padding-left: 30%;
-    padding-right: 30%
-}
-
-#intro {
-    text-align: center;
-}
-
-#intro img {
-    width: 100%;
-    opacity: 70%;
-}
-
-ul,ol {
-    padding-left: 35%;
-    padding-right: 35%;
-    list-style-position: inside;
-    text-align: left;
-    line-height: 25px;
-    font-weight: bold;
-}
-
-ol {
-    list-style-type: lower-alpha;
-    list-style-position: inside;
-}
-
-#about {
-    text-align: center;
-}
-
-#contact {
-    text-align: center;
-}
-
-#contact a {
-    padding: 10px;
 }
 
 a:link { 
@@ -111,17 +66,90 @@ a:active {
     text-decoration: none; 
 }
 
-#contact img {
-    height: 50px;
-    width: 50px;
+header,footer {
+    background: lightslategray;
+    color: black;
 }
+
+/* ---------- Header Section END ---------- */
+
+/* ---------- Footer Section Begin ---------- */
 
 footer {
     text-align: center;
     padding: 20px;
 }
 
-header,footer {
-    background: lightslategray;
-    color: black;
+
+/* ---------- Footer Section END ---------- */
+
+/*==========================================*/
+/* ---------- Main Section Begin ---------- */
+/*==========================================*/
+
+main {
+    display: flex;
 }
+
+main > div {
+    position: relative;
+    width: 40%;
+    padding-left: 30%;
+    padding-right: 30%
+}
+
+ul,ol {
+    padding-left: 35%;
+    padding-right: 35%;
+    list-style-position: inside;
+    text-align: left;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+ol {
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+}
+
+/* ---------- Intro Section Begin ---------- */
+
+#intro {
+    text-align: center;
+}
+
+#intro img {
+    width: 100%;
+    opacity: 70%;
+}
+
+
+/* ---------- Intro Section END ---------- */
+
+/* ---------- About Section Begin ---------- */
+
+#about {
+    text-align: center;
+}
+
+/* ---------- About Section END ---------- */
+
+/* ---------- Contact Section Begin ---------- */
+
+#contact {
+    text-align: center;
+}
+
+#contact a {
+    padding: 10px;
+}
+
+#contact img {
+    height: 50px;
+    width: 50px;
+}
+/* ---------- Contact Section END ---------- */
+
+/*==========================================*/
+/* ---------- Main Section END ---------- */
+/*==========================================*/
